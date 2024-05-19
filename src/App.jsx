@@ -60,7 +60,7 @@ function App() {
         </div>
       </div>
       <div className="flex justify-center">
-        <Notice message={ (data && data.base===currency) ? `Last Updated data on ${data.date}` : "Data not available.Check internet connection" }/>
+        <Notice message={ (data && data.base===currency) ? `Last Updated data on ${data.date}` : `Loading data !  Please wait` }/>
       </div>
       <div className="flex justify-center items-center  w-full"> { }
         <div className="flex justify-between mb-4 w-full max-w-5xl mx-auto"> { }

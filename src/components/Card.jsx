@@ -41,7 +41,7 @@ function Card({
                     >                         
                         {
                             options.map((e)=>(
-                                <option key={e} value={e}>{`${e}-${fullname[e] || 'nahi aaya re'}`}</option>
+                                <option key={e} value={e}>{`${e}-${fullname[e] || '---'}`}</option>
                             ))
                         }
                     </select>
